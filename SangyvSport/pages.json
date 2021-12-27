@@ -1,0 +1,101 @@
+{
+  "pages": [
+    {
+      "path": "pages/HomePage/HomePage",
+      "style": {
+        "navigationBarTitleText": "主页",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/Mine/Mine",
+      "style": {
+        "navigationBarTitleText": "我的",
+        "enablePullDownRefresh": false
+      }
+    }
+  ],
+  "tabBar": {
+    "selectedColor": "#f94d2a",
+    "list": [
+      {
+        "pagePath": "pages/HomePage/HomePage",
+        "text": "主页",
+        "iconPath": "static/tabbar-icons/homepage-line.png",
+        "selectedIconPath": "static/tabbar-icons/homepage-filling.png"
+      },
+      {
+        "pagePath": "pages/Mine/Mine",
+        "text": "我的",
+        "iconPath": "static/tabbar-icons/mine-line.png",
+        "selectedIconPath": "static/tabbar-icons/mine-filling.png"
+      }
+    ]
+  },
+  "subPackages": [
+    {
+      "root": "subpkg_course",
+      "name": "course",
+      "pages": [
+        {
+          "path": "pages/CourseDetail/CourseDetail",
+          "style": {
+            "navigationBarTitleText": "",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "pages/CourseVideo/CourseVideo",
+          "style": {
+            "navigationBarTitleText": "",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "pages/CourseFinish/CourseFinish",
+          "style": {
+            "navigationBarTitleText": "",
+            "enablePullDownRefresh": false
+          }
+        }
+      ]
+    },
+    {
+      "root": "subpkg_recommand",
+      "name": "recommand",
+      "pages": [
+        {
+          "path": "pages/RecommandTestFirst/RecommandTestFirst",
+          "style": {
+            "navigationBarTitleText": "课程智能推荐",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "pages/RecommandTestSecond/RecommandTestSecond",
+          "style": {
+            "navigationBarTitleText": "课程智能推荐",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "pages/RecommandCourse/RecommandCourse",
+          "style": {
+            "navigationBarTitleText": "课程智能推荐",
+            "enablePullDownRefresh": false
+          }
+        }
+      ]
+    }
+  ],
+
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8",
+    "app-plus": {
+      "background": "#efeff4"
+    }
+  }
+}
